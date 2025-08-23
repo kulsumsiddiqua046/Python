@@ -1,3 +1,4 @@
+DATE : 23/08/2025
 #create an empty list
 emptyList=[ ]
 print(emptyList)

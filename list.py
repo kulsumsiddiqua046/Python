@@ -1,4 +1,3 @@
-DATE : 23/08/2025
 #create an empty list
 emptyList=[ ]
 print(emptyList)
@@ -66,4 +65,19 @@ print(numbers)
 clg_list=[4001,4002,4003,4005]
 for item in clg_list:
     print(item)
- 
+
+# How to make a list empty
+my_list=[1,2,3,4,5]
+my_list.clear()
+print(my_list)
+
+# How to merge two lists
+list1=[20,40,60,80,100]
+list2=[10,30,50,70,90]
+merge=list1+list2
+print(merge)
+
+#convert another collection into list
+my_string="HELLO"
+my_list=list(my_string)
+print(my_list)

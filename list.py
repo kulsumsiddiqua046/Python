@@ -66,3 +66,4 @@ print(numbers)
 clg_list=[4001,4002,4003,4005]
 for item in clg_list:
     print(item)
+ 
